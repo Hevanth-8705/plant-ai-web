@@ -1,0 +1,6 @@
+{
+  "name": "PlantPal — AI-Powered Plant Care & Gardening Assistant",
+  "description": "Smart watering & fertilizer reminders, AI plant disease detection, growth tracking, sunlight checker, harvest planner, and plant diary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

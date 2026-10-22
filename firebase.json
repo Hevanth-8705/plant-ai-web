@@ -1,0 +1,8 @@
+{
+  "firestore": {
+    "database": "ai-studio-plantpalaipowere-cf316fad-a710-4d67-8176-0328096d9440",
+    "location": "asia-southeast1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

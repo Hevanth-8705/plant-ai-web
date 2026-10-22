@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "PlantPal user profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "Plant": {
+      "title": "Plant",
+      "description": "User plant entity",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "name": { "type": "string" }
+      },
+      "required": ["id", "userId", "name"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile data"
+    },
+    "/users/{userId}/plants/{plantId}": {
+      "schema": "Plant",
+      "description": "User's personal plants"
+    }
+  }
+}
